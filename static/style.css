@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Indie+Flower&family=Tilt+Neon&family=Young+Serif&display=swap');
+
+span
+{
+  color: #571845;
+}
+li
+{
+  margin-top: 3rem;
+  list-style: none;
+}
+.App {
+  text-align: center;
+}
+.logo
+{
+  font-size: 5rem;
+  margin-right: 50rem;
+  background: linear-gradient(-45deg,#571845,#25040d);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: 'Young serif';
+}
+.myform input
+{
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    border: none;
+    background: #ddd;
+    border-radius: 1rem;
+}
+.myform button
+{
+    font-size: 1.2rem;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    border: none;
+}
+.myform
+{
+    display: flex;
+    flex-direction: row;
+}
+.Tasks
+{
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: #ddd;
+  height: 40rem;
+  width: 40rem;
+  border-radius: 3rem;
+  margin-left: 53rem;
+  margin-bottom: 2rem;
+  margin-top: -17rem;
+}
+.Tasks::-webkit-scrollbar
+{
+  overflow: hidden;
+}
+.Tasks::-webkit-scrollbar-thumb
+{
+  height: 5rem;
+}   
+.tasklist
+{
+  margin-top: 4rem;
+}
+.li img
+{
+  height: 1.7rem;
+  width: 1.7rem;
+}
+.li
+{
+  display: flex;
+  flex-direction: row;
+}
